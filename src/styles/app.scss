@@ -20,6 +20,14 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.App {
+    transition: all 500ms ease;
+}
+
+.library-active {
+    margin-left: 30%;
+}
+
 @import './song';
 @import './player';
 @import './library.scss';

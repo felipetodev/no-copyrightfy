@@ -4,6 +4,15 @@ nav {
     align-items: center;
     justify-content: space-around;
 
+    span {
+        text-decoration: line-through;
+        color: rgb(65, 65, 65);
+    }
+
+    svg {
+        margin-left: 4px;
+    }
+
     button {
         background: transparent;
         border: none;
@@ -15,6 +24,14 @@ nav {
         &:hover {
             background: rgb(65, 65, 65);
             color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        button {
+            z-index: 10;
         }
     }
 }
